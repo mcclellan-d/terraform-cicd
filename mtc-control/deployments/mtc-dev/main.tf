@@ -19,6 +19,6 @@ module "networking" {
   source  = "app.terraform.io/isekai/networking/aws"
   version = "1.0.0"
 
-  access_ip  = "x.x.x.x/32"
+  access_ip  = "x.x.x.x/32" #set to IP of Cloud9 EC2 Instance
   aws_region = "us-east-1"
 }
